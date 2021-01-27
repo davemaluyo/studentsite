@@ -1,4 +1,4 @@
-# studentsite
+# Dave's Student Site
 
 This is my website for NMA courses
 
