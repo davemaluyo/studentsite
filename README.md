@@ -2,4 +2,4 @@
 
 This is my website for NMA courses
 
-[View my site](https://davemaluyo.github.io/studentsite)
+[View my site](https://davemaluyo.github.io/studentsite/)
