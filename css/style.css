@@ -1,0 +1,35 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background: rgb(255, 153, 51);
+    margin: 0;  
+    display: grid;
+    align-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p1 {
+    color: white;
+    max-width: 30em;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Garamond, serif;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+a {
+    color: white;
+}
