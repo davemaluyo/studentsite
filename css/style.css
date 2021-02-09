@@ -14,11 +14,25 @@ body {
   line-height: 1.4;
 }
 
+/* CUSTOM HOME PAGE STYLING */
+.page-home header {
+    position: absolute
+    width: 100%;
+    background-color: transparent;
+}
+
+.page-home .hero {
+    background-image: url('https://images.unsplash.com/photo-1508614999368-9260051292e5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-position: center top;
+    background-size: cover;
+    padding: 10em 1em 6em 1em
+}
+
+
 
 /* SITE STRUCTURE */
 
 header {
-    background-color: rgba(242, 133, 0, 1);
     color: rgba(0, 0, 0, 0.8); 
     padding: 1em;
     display: grid;
@@ -119,10 +133,3 @@ footer {
     display: block;
     padding: 1em;
 }
-
-/* FOR DEV PURPOSES */
-/* body * {
-    background-color: rgba(0,0,0,.05) !important;
-    border: 1px solid rgba(0,0,0,.1) !important;
-    color: rgba(0,0,0,.5) !important;
-} */
