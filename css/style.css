@@ -5,7 +5,7 @@ body { margin: 0; }
 /* GLOBAL COLORS */
 body { color: rgba(0, 0, 0, 0.8); }
 a { color: rgba(0, 102, 204, 1); }
-a:hover { color: rgba(0, 51, 153, 1); }
+a:hover { color: rgb(218, 106, 2); }
 
 /* GLOBAL TYPOGRAPHY */
 body {
@@ -22,10 +22,30 @@ body {
 }
 
 .page-home .hero {
-    background-image: url('https://images.unsplash.com/photo-1508614999368-9260051292e5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-image: url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1189&q=80');
     background-position: center top;
     background-size: cover;
     padding: 10em 1em 6em 1em
+}
+
+/* STYLING FOR SUB PAGES */  
+.page-sub .hero {
+    background-image: url ('https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1189&q=80')
+    background-position: center top;
+    background-size: cover;
+    padding: 10em 1em 6em 1em
+}
+
+/* COURSE WORK SECTION */
+.coursework {
+    padding: 6em 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects {
+    margin: 2em;
 }
 
 
@@ -41,12 +61,12 @@ header {
 }
 
 header a {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
     text-decoration: none;
 }
 
 header a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(218, 106, 2);
 }
 
 
@@ -76,7 +96,6 @@ main {
 
 /* HERO SECTION */
 .hero {
-    background-color: rgba(85, 107, 47, 1);
     text-align: center;
     color: white;
     padding: 6em 1em;
