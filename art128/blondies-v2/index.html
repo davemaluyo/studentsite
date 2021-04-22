@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Site Name | Single Page Site</title>
+    <meta name="description" content="This is a starter HTML + CSS + JS boilerplate set of code for website projects." />
+
+    <!-- FOR MOBILE / SMALL SCREENS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FOR IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- MAIN CSS FILE -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+    <header id="top" class="site-header toggle-nav" data-navstate="closed">
+        <div class="container">
+            <div class="site-id">
+                <h1> <a class="scroll" href="#top">Blondie's</a></h1>
+            </div>
+
+            <nav class="site-nav">
+                <div class="menu-button navicon">Menu</div>
+                <ul>
+                    <li><a class="scroll"href="#top">Order</a></li>
+                    <li><a class="scroll"href="#about">About</a></li>
+                    <li><a class="scroll"href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+  <main class="site-main">
+    <div class="container">
+        <div class="row">
+            <div class="one-third column">
+                    <h2>Fast & friendly vegan food.</h2>
+                    <p>Available for takeout or delivery.</p>
+                    <a href="#about" class="button scroll">Order Now</a>
+            </div>
+    
+            <div class="two-thirds column">
+            <img src="images/blondies-hero.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+        
+
+        <section id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="column one-third">
+                        <img src="images/Location.jpg" alt="Location"
+                        >
+                    </div>
+                    <div class="column one-third">
+                        <img src="images/burger-1.png" alt="Burger 1" 
+                        width="628" height="600"/>
+                        
+                    </div>
+                    <div class="column one-third">
+                        <img src="images/Hours.png" alt="Hours" 
+                        />
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </section>
+
+
+        
+        <section id="menu">
+            <div class="container">
+                <div class="row">
+                    <div class="column one-third">
+                        <img src="images/bowl-1.png" alt="Burger 1">
+                    </div>
+                    <div class="column one-third">
+                        <img src="images/popular-items.png" alt="Popular Items">
+                    </div>
+                    <div class="column one-third">
+                        <img src="images/table-1.png" alt="Table 1">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="column one-third">
+                        <img src="images/about-us-1.png" alt="Owner">
+                    </div>
+                    <div class="column two-thirds">
+                        <img src="images/about-us-story.png" alt="Our Story">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <div class="container">
+
+                <h3 class="section-title">Contact</h3>
+
+                <form>
+                    <label for="contact_name">Name:</label>
+                    <input type="text" id="contact_name" name="contact_name" /> 
+ 
+                    <label for="email">Email Address:</label>
+                    <input type="text" id="contact_email" name="contact_email" /> 
+ 
+                    <label for="contact_message">Message:</label>
+                    <textarea id="contact_message" name="contact_message"></textarea>
+                    
+                    <input type="submit" value="Submit" />
+ 
+                 </form>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <nav class="site-nav">
+                <ul>                
+                    <li><a class="scroll" href="#top">Home</a></li>
+                    <li><a class="scroll" href="#about">About</a></li>
+                    <li><a class="scroll" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+
+
+    <!-- SCROLL JS FILE -->
+    <script src="js/scroll.js"></script>
+    
+    <!-- MAIN JS FILE -->
+    <script src="js/script.js"></script>
+</body>
+</html>
