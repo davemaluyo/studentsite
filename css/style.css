@@ -16,7 +16,7 @@ body {
 
 /* CUSTOM HOME PAGE STYLING */
 .page-home header {
-    position: absolute
+    position: absolute;
     width: 100%;
     background-color: transparent;
 }
@@ -30,10 +30,10 @@ body {
 
 /* STYLING FOR SUB PAGES */  
 .page-sub .hero {
-    background-image: url ('https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1189&q=80')
+    background-image: url ('https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1189&q=80');
     background-position: center top;
     background-size: cover;
-    padding: 10em 1em 6em 1em
+    padding: 10em 1em 6em 1em;
 }
 
 /* COURSE WORK SECTION */
