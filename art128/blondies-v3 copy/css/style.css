@@ -136,8 +136,13 @@ a {
     .button:hover,
     button:hover,
     form input[type="submit"]:hover {
+<<<<<<< HEAD:art128/blondies-v3 copy/css/style.css
      background-color: #5A9402;
      border-color: #5A9402;
+=======
+     background-color: crimson;
+     border-color: crimson;
+>>>>>>> da831525fbe9bf4742cc3edb249e055ab49fd20a:art128/blondies-v2/css/style.css
      color: rgba(255,255,255,1);
      text-decoration: none;
     }
@@ -148,7 +153,11 @@ a {
     }
 
     .button.alt:hover {
+<<<<<<< HEAD:art128/blondies-v3 copy/css/style.css
      background-color: #F26C5D;
+=======
+     background-color: crimson;
+>>>>>>> da831525fbe9bf4742cc3edb249e055ab49fd20a:art128/blondies-v2/css/style.css
      color: rgba(255,255,255,1);
     }
 
@@ -167,7 +176,11 @@ body {
 }
 
 .container {
+<<<<<<< HEAD:art128/blondies-v3 copy/css/style.css
     padding: 0;
+=======
+    padding:
+>>>>>>> da831525fbe9bf4742cc3edb249e055ab49fd20a:art128/blondies-v2/css/style.css
     
     /* overflow-x: hidden; */
 }
@@ -190,6 +203,13 @@ body {
     body {
         font-size: 112.5% /* 18px */;
     }
+<<<<<<< HEAD:art128/blondies-v3 copy/css/style.css
+=======
+    .container {
+        display: flex;
+       
+    }
+>>>>>>> da831525fbe9bf4742cc3edb249e055ab49fd20a:art128/blondies-v2/css/style.css
 }
 
 
@@ -205,12 +225,21 @@ body {
         flex-grow: 0;
     }
     .one-whole { width: 100%; }
+<<<<<<< HEAD:art128/blondies-v3 copy/css/style.css
     .one-half { width: 50%; }
     .one-third { width: 33.3333%; }
     .push-one-third { margin-left: 33.3333%; }
     .two-thirds { width: 66.6666%; }
     .one-fourth { width: 25%; }
     .push-one-fourth { margin-left: 25%; }
+=======
+    .one-half { width: 48%; }
+    .one-third { width: 32.3333%; }
+    .push-one-third { margin-left: 34.3333%; }
+    .two-thirds { width: 64.6666%; }
+    .one-fourth { width: 23%; }
+    .push-one-fourth { margin-left: 26%; }
+>>>>>>> da831525fbe9bf4742cc3edb249e055ab49fd20a:art128/blondies-v2/css/style.css
 
     .row.centered {
         justify-content: center;
@@ -221,6 +250,7 @@ body {
         margin-right: auto;
     }
 
+<<<<<<< HEAD:art128/blondies-v3 copy/css/style.css
     /* .column.one-third {
         background-color: lightgray;
     } */
@@ -228,6 +258,16 @@ body {
     .one-third, .two-thirds {
     text-align: center;
     }
+=======
+    .column.one-third {
+        background-color: lightgray;
+    }
+
+    .one-third, .two-thirds {
+    border: 1px solid orange;
+    text-align: center;
+    
+>>>>>>> da831525fbe9bf4742cc3edb249e055ab49fd20a:art128/blondies-v2/css/style.css
 }
 
 /* site structure  */
@@ -315,9 +355,15 @@ section .row p {
     color: rgba(255,255,255,1);
 }
 
+<<<<<<< HEAD:art128/blondies-v3 copy/css/style.css
 /* .hero .column one-third {
     background-color: #F5AD20;
 } */
+=======
+.hero .column one-third {
+    background-color: #F5AD20;
+}
+>>>>>>> da831525fbe9bf4742cc3edb249e055ab49fd20a:art128/blondies-v2/css/style.css
     
 
 
@@ -543,6 +589,15 @@ img {
      grid-row: 1;
  }
 
+<<<<<<< HEAD:art128/blondies-v3 copy/css/style.css
+=======
+ .hero .column one-third {
+    background-color: #F5AD20;
+    justify-content: center;
+ } 
+
+
+>>>>>>> da831525fbe9bf4742cc3edb249e055ab49fd20a:art128/blondies-v2/css/style.css
  /* MENU */
 
  .menu .row {
