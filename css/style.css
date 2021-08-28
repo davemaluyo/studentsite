@@ -15,11 +15,11 @@ body {
 }
 
 h2 {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 100;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
 }
 a {
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-weight: 400;
 }
 
@@ -115,7 +115,7 @@ main {
     line-height: 1;
     text-transform: uppercase;
     margin: 0 auto;
-    font-family: Helvetica, sans-serif;
+    font-family: "work Sans", sans-serif;
     
 }
 
@@ -138,6 +138,23 @@ main {
 }
 
 .courses h3 {
+    text-align: center;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio {
+    padding: 6em 1em;
+    display: grid;
+    justify-content: center;
+}
+
+.portfolio ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.portfolio h3 {
     text-align: center;
 }
 
