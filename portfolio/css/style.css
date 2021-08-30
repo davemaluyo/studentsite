@@ -40,11 +40,21 @@ figure {
 /* #TYPOGRAPHY  */
 body {
   font-family: 'Work Sans', sans-serif;
+  font-weight: ;
   color: #333;
   font-size: 87.5%;
   /* 14px; */
   line-height: 1.5em;
   /* 14px x 1.5em = 21px */
+}
+
+h1 h2 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+}
+a {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
 }
 
 /* #LINKS */
@@ -54,7 +64,7 @@ a {
 }
 
 a:hover {
-  color: #999;
+  color: #ffae0e;
 }
 
 /* HELPERS */
@@ -82,7 +92,7 @@ button {
 
 button,
 a.button {
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 0.15em;
   font-size: 80%;
   display: inline-block;
@@ -112,9 +122,9 @@ button:hover,
 a.button:hover,
 button.active:hover,
 a.button.active:hover {
-  background-color: #bbb;
-  color: #fff;
-  border-color: #bbb;
+  background-color: #ffae0e;
+  color: black;
+  border-color: #ffae0e;
   text-decoration: none;
 }
 
@@ -276,9 +286,10 @@ body {
   font-size: 1.5em;
   margin: 0;
   padding: 1.5em 0 0.5em 0;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 0.15em;
   text-align: center;
+  font-family: 'Work Sans', sans-serif;
 }
 .site-branding h1 a {
   font-weight: normal;
@@ -289,7 +300,7 @@ body {
 /* #SITE NAVIGATION  */
 /* Default Site-Navigation Menu (both header & footer) */
 .site-navigation {
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 0.15em;
   font-size: 80%;
   text-align: center;
@@ -318,7 +329,7 @@ li {
 .site-navigation li.selected a {
   border-bottom: 0.05em solid #dedede;
   padding-bottom: 0.95em;
-  color: #999;
+  color: black;
 }
 
 /* Main Site Section (Main Content Area) */
@@ -339,7 +350,7 @@ form label {
 
 form input,
 form textarea {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'WorkSans', sans-serif;
   font-size: 1em;
   line-height: 1.15em;
   display: block;
@@ -432,12 +443,18 @@ fade-in {
 --------------------------------- */
 
 body {
-  font-family: "Work Sans", sans-serif;
-  background: #fff;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  background:#F8F7F3;
+}
+
+h1 { 
+  font-family: 'DM Serif Display', serif;
 }
 
 .site-navigation {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
 }
 
 /* Custom Sections */
@@ -478,17 +495,18 @@ body {
 
 .thumbgrid a {
   overflow: hidden;
-  border: 2px solid rgba(255, 255, 255, 0);
+  border: none;
+  /* background-color: #ffae0e; */
 }
 
 .thumbgrid a img {
-  opacity: 0.75;
+  opacity: 1;
   transition: all ease-in-out 0.2s;
   transform: scale(1);
 }
 
 .thumbgrid a:hover img {
-  opacity: 1;
+  opacity: .75;
   transform: scale(1.05);
 }
 
@@ -513,4 +531,20 @@ body {
 .wufoo input.text,
 .wufoo textarea.textarea {
   padding: 1em;
+}
+
+/* animated logo */
+
+.site-header a {
+    display: block;
+    max-width:350px;
+    max-height:111px;
+    width: auto;
+    height: auto;
+  }
+
+  /* portrait sizing */
+
+.one-half.column img {
+  max-height: 450px;
 }

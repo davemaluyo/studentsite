@@ -15,8 +15,8 @@ body {
 }
 
 h2 {
-    font-family: "Work Sans", sans-serif;
-    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 a {
     font-family: "Work Sans", sans-serif;
@@ -113,10 +113,9 @@ main {
 .hero h2 {
     font-size: 6em;
     line-height: 1;
-    text-transform: uppercase;
+    text-transform: none;
     margin: 0 auto;
-    font-family: "work Sans", sans-serif;
-    
+    font-family: 'Playfair Display', serif;
 }
 
 .hero p {

@@ -2,6 +2,7 @@
 .wufoo textarea.textarea {
   padding: 0.5em;
   box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
 }
 
 input#saveForm {
