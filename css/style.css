@@ -9,13 +9,13 @@ a:hover { color: rgb(218, 106, 2); }
 
 /* GLOBAL TYPOGRAPHY */
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
     font-size: 88.75%; /* 14px */
     line-height: 1.4;
 }
 
 h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Space Mono', monospace;
     font-weight: 700;
 }
 a {
@@ -115,7 +115,9 @@ main {
     line-height: 1;
     text-transform: none;
     margin: 0 auto;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Space Mono', monospace;
+    font-style: italic;
+    font-weight: 400;
 }
 
 .hero p {
