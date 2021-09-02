@@ -233,3 +233,9 @@ dt {
 dd {
     margin: 0;
 }
+
+/* project brief center position */
+
+.video {
+    text-align: center;
+}
