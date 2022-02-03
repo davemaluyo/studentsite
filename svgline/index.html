@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <!-- VIEWPORT FOR MOBILE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FOR IE/EDGE -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- MAIN CSS FILE -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <div class="line-container">
+        <svg viewBox="0 0 1265 879" fill="none" preserveAspectRatio="xMidYMax meet">
+            <path d="M1.71741 1.81421C18.9239 14.5962 38.809 24.603 57.5403 34.9721C80.5412 47.7048 98.6258 68.5027 117.001 86.8776C140.878 110.754 160.487 135.432 174.782 166.065C184.374 186.619 196.569 213.447 215.915 226.575C237.968 241.539 261.788 250.531 288.247 253.087C299.979 254.22 311.992 252.64 323.643 251.128C330.773 250.203 345.144 250.303 350.995 244.902C354.636 241.541 359.319 239.74 359.319 234.13C359.319 226.213 357.746 228.131 351.764 228.463C334.433 229.426 332.05 244.486 337.914 259.663C346.442 281.736 367.119 296.63 384.223 311.358C431.957 352.463 485.885 383.212 540.219 414.54C577.548 436.062 614.49 457.989 652.075 479.037C664.309 485.888 677.986 493.545 687.961 503.52C696.534 512.093 707.208 526.795 697.404 538.777C690.044 547.774 669.314 555.996 657.741 551.788C656.663 551.396 652.398 550.869 652.984 549.55C656.406 541.851 665.243 543.157 672.221 542.554C736.471 537.002 799.085 551.932 857.178 579.14C895.016 596.861 927.361 628.855 954.204 660.216C960.935 668.081 971.343 677.988 973.721 688.687C980.807 720.575 993.426 754.187 1010.59 782.215C1020.42 798.281 1039.55 802.465 1056.55 805.789C1067.38 807.908 1078.22 807.991 1089 810.686C1095.95 812.424 1102.61 816.221 1109.08 819.29C1127.69 828.122 1149.8 827.533 1169.8 831.532C1184.21 834.414 1201.25 841.075 1214.01 848.251C1224.07 853.907 1233.55 860.671 1243.74 866.159C1250.41 869.748 1256.11 874.501 1263.4 876.932" stroke="black" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+    </div>
+        
+    <section class="one">
+        <h1 class="scroll" data-rate=".2" data-direction="vertical">Project 1</h1>
+    </section>
+
+    <section class="two">
+        <h1 class="scroll" data-rate=".2" data-direction="vertical">Project 2</h1>
+    </section>
+        
+        
+    <script>
+          
+            let path = document.querySelector('path')
+            let pathLength = path.getTotalLength()
+        
+            path.style.strokeDasharray = pathLength + ' ' + pathLegnth
+        
+            path.style.strokeDashoffset = pathLegnth;
+        
+            window.addEventListener('scroll', () => {
+                
+                // What % down is it?
+                var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+                    
+                // Length to offset the dashes
+                    var drawLength = pathLength * scrollPercentage;
+                    
+                // Draw in reverse
+                    path.style.strokeDashoffset = pathLength - drawLength;
+                
+            })
+                                  
+    </script>
+
+</body>
+
+</html>
