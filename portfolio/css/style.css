@@ -24,6 +24,8 @@
             #SUB PAGES
         #SITE NAVIGATION
             #TOGGLE-NAV (Default for Small Screens)
+
+    #LOCOMOTIVE
 --------------------------------- */
 /* #HTML5 */
 header,
@@ -273,9 +275,7 @@ body {
   }
 }
 
-.site-footer {
-  /* border-top: 1px solid #eee; */
-}
+
 
 /* Site Branding */
 .site-branding {
@@ -520,9 +520,7 @@ h1 {
 }
 
 /* Custom MixItUp Styling */
-.mixcontainer {
-  /* text-align: center; */
-}
+
 
 .mixcontrols {
   margin-bottom: 2em;
@@ -557,3 +555,40 @@ h1 {
   margin-right: auto;
   width: 100%;
 }
+
+/* LOCOMOTIVE SCROLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL */
+
+* loco-section {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+loco-section {
+  height: 100vh;
+  padding: 10em;
+
+  
+  /* &:first-child {
+    background: rgb(0, 126, 243)
+    color: white;
+  }
+  
+  &:last-child: {
+    background: rgb(31,37,43);
+    color: white
+  } */
+}
+
+/* .custom-p {
+  opacity: 0;
+  transition: opacity 5s;
+}
+
+.scroll-class {
+  opacity: 1;
+} */
+
