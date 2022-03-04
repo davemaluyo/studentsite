@@ -61,7 +61,7 @@ a {
 
 /* SITE STRUCTURE */
 
-header {
+.site-header {
     color: rgba(0, 0, 0, 0.8); 
     padding: 1em;
     display: grid;
@@ -69,12 +69,12 @@ header {
     align-items: center;
 }
 
-header a {
+.site-header a {
     color: white;
     text-decoration: none;
 }
 
-header a:hover {
+.site-header a:hover {
     color: #ffae0e;
 }
 
@@ -238,5 +238,35 @@ dd {
 
 .video {
     text-align: center;
+}
+
+/* VIDEO BACKGROUND */
+.video-hero  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #DCAD1E;
+    color: black;
+    margin-bottom: 100px;
+    padding: 200px 0;
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .video-bg {
+        width: 100%;
+        height: auto;
+    }
 }
 
