@@ -13,10 +13,8 @@
     <!-- VIEWPORT FOR MOBILE -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- ADOBE FONTS -->
+    <link rel="stylesheet" href="https://use.typekit.net/eop5ada.css">
 
     <!-- MAIN CSS FILE -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -36,16 +34,16 @@
                 <div class="menu-button navicon">Menu</div>
                 <ul class="nav">
                     <li class="hidden">
-                        <a href="index.html">Home</a>
+                        <a href="index.html">HOME</a>
                     </li>
                     <li class="selected">
-                        <a href="index.html#work">Work</a>
+                        <a href="index.html#work">WORK</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.html">ABOUT</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html">CONTACT</a>
                     </li>
                 </ul>
             </nav>
@@ -53,70 +51,30 @@
 
     <main class="site-main">
 
-
-        <div class="video-hero">
+        
+        <div class="video-hero-content">
             <div class="text-wrapper">
-                <h1>Dave Made</h1>
-                <h2>Analog Artisan, Digital Craftsman</h2>
+                <h1>Dave Maluyo:</h1>
+                <h2>Analog Artisan, Digital&nbspCraftsman</h2>
+            </div>
+
+            <div class="full-screen-video-container">
+                <video autoplay muted loop><source src="img/Video Intro Test.mp4" type="video/mp4" />
+                </video>
+            </div>
+
         </div>
-            <video class="video-bg" autoplay muted loop src="img/Video Intro Test.mp4" type="video/mp4"></video>
-        </div>
 
-        <div class="container">
-            
-
-            <section id="work" class="text-centered">
-
-                <!-- project filter hidden 9/7/21 -->
-
-                 <!-- <div class="mixcontrols">
-                    <button class="filter alt fade-and-move-in" data-filter="all">All</button>
-                    <button class="filter alt fade-and-move-in" data-filter=".print">Print</button>
-                    <button class="filter alt fade-and-move-in" data-filter=".web">Web</button>
-                    <button class="filter alt fade-and-move-in" data-filter=".motion">Video</button>
-                </div>  -->
-
-                <div class="thumbgrid mixcontainer fade-and-move-in">
-                    <a href="book-cover.html" class="mix print">
-                        <img src="img/booktrilogy-thumbnail-01.jpg" alt="placeholder" />
-                    </a>
-
-                    <a href="heymatcha.html" class="mix print">
-                        <img src="img/heymatcha-thumbnail-12.png" alt="placeholder" />
-                    </a>
-
-                    <a href="patagonia.html" class="mix print">
-                        <img src="img/patagonia-thumbnail-08.png" alt="placeholder" />
-                    </a>
-
-                    <a href="momentcafe.html" class="mix print">
-                        <img src="img/momentcafe-thumbnail.png" alt="placeholder" />
-                    </a>
-
-                    <a href="promo.html" class="mix motion">
-                        <img src="img/tourismlogo_davemaluyo-02.png" alt="placeholder" />
-                    </a>
-                    <a href="logo.html" class="mix print">
-                        <img src="img/ART127_CorporateLogo_V2-01.jpg" alt="placeholder" />
-                    </a>
-                    <a href="stationary-set.html" class="mix print">
-                        <img src="img/typography-book-thumbnail.jpg" alt="placeholder" />
-                    </a>
-                    <a href="web-app.html" class="mix web">
-                        <img src="img/indigenous-soap-thumbnail.png" alt="placeholder" />
-                    </a>
-                    <a href="art-work.html" class="mix print">
-                        <img src="img/damnittakecare.png" alt="placeholder" />
-                    </a>
-                </div>
-
-            </section>
-
+        <div class="work">
+            <h1>Spirited teller
+                of meaningful
+                stories</h1>
         </div>
 
     </main>
+    
 
-    <footer class="site-footer fade-and-move-in">
+    <footer class="site-footer">
         <div class="container">
             <nav class="site-navigation">
                 <ul class="nav group">
@@ -138,22 +96,11 @@
         <!-- END CONTAINER -->
     </footer>
 
-    <!--  MIXIT UP -->
-    <script src="js/mixitup.min.js"></script>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // MIXITUP
-            var containerEl = document.querySelector(".mixcontainer");
-            var mixer = mixitup(containerEl);
-        });
-    </script>
-    
 
-    <!-- MAIN JS -->
-    <script src="js/script.js"></script>
+              
 
-    <!-- VIDEO BACKGROUND JS -->
+                
     
 
 </body>
