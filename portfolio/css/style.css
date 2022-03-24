@@ -232,9 +232,7 @@ li {
 
 /* Main Sections */
 
-.site-main {
-  /* background: #E5E5E5; */
-}
+
 
 section {
   padding: 1.5em 0;
@@ -327,10 +325,15 @@ form input[type="reset"]:hover {
 }
 
 /* Work Section */
-.work {
+/* section.work {
+  position: absolute;
+  width: 100vw;
+  height: 720px;
+  top: 1000px;
   background: chocolate;
-  
-}
+  padding-top: 10em;
+  padding-bottom: 10em;
+} */
 
 
 /* animated logo */
@@ -348,5 +351,4 @@ form input[type="reset"]:hover {
 .one-half.column img {
   max-height: 450px;
 }
-
 
